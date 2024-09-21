@@ -1,0 +1,140 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: lightblue;
+}
+
+/* Estilos para la sección */
+.section {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 500px; /* Ancho ajustado */
+}
+
+/* Estilos para los div */
+.div__section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.div2__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div3__section {
+  margin-top: 20px;
+}
+
+/* Estilos para el título */
+.title__div {
+  font-size: 24px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+/* Estilos para la descripción */
+.description__div {
+  font-size: 14px;
+  color: #666666;
+  margin-bottom: 20px;
+}
+
+/* Estilos para el formulario */
+.form__div2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Estilos para el input */
+.input__div2 {
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  width: calc(100% - 22px);
+}
+
+/* Estilos para el botón */
+.button__div2 {
+  padding: 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button__div2:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para la lista */
+.ul__div3 {
+  list-style-type: none;
+  padding: 0;
+}
+
+.li__div3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+/* Estilos para el checkbox */
+.checkbox__div3 {
+  margin-right: 10px;
+}
+
+/* Estilos para el párrafo */
+.p__div3 {
+  flex-grow: 1;
+  margin: 0;
+  color: #333333;
+}
+
+/* Estilos para el botón de eliminar */
+.buttonDelete__div3 {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* Estilos para el botón de editar */
+.buttonEdit__div3 {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.buttonDelete__div3:hover {
+  background-color: #c82333;
+}
+
+.buttonEdit__div3:hover {
+  background-color: #0056b3;
+}
